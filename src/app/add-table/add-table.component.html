@@ -1,0 +1,36 @@
+
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div id="small-dialog2" class="mfp-hide book-form">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h3 routerLink="/add-table" routerLinkActive="active">Book A Table Now</h3>
+					<form action="#" method="post">
+						<input type="text" name="Name" placeholder="Reservation Name" [(ngModel)]="customer.name"/>
+						<input type="tel" name="mobilenumber" placeholder="Mobile Number" [(ngModel)]="customer.mobilenumber"/>
+						<input type="email" name="email" class="email" placeholder="Email"  [(ngModel)]="customer.email"/>
+						<!-- <input type="text" name="number" placeholder="Number of Guests"  [(ngModel)]="customer.number"/> -->
+						
+						<select required="">
+							<option value="">Number Of Guests</option>
+							<option  [(ngModel)]="customer.number" value="">1 Guest</option>
+							<option  [(ngModel)]="customer.number" value="">2 Guests</option>
+							<option  [(ngModel)]="customer.number" value="">3 Guests</option>
+							<option  [(ngModel)]="customer.number" value="">4 Guests</option>
+							<option  [(ngModel)]="customer.number" value="">5 Guests</option>
+							<option  [(ngModel)]="customer.number" value="">More Than 5</option>
+						</select>
+
+
+						<input class="date" type="text" id="datepicker2"  name="datepicker2" placeholder="Date Of Arrival" title="Please enter your Arrival Date "  [(ngModel)]="customer.date"/>
+						<input type="text" name="time" class="time" placeholder="Time"  [(ngModel)]="customer.time"/>
+						<textarea name="Message" placeholder="Additional Information (Optional)" [(ngModel)]="customer.desc" ></textarea>
+						<input type="submit" value="Book table" (click)=" addCustomer()">
+					</form>
+			</div>
+		</div>
+	</div> 
+
+	
+
+
+

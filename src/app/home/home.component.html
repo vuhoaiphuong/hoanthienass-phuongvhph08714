@@ -1,0 +1,217 @@
+
+<body>
+<!-- banner -->
+		<div class="banner jarallax">
+			<div class="agileinfo-dot">
+				<div class="header">
+					<div class="container-fluid">
+						<div class="header-left">
+							<div class="w3layouts-logo grid__item">
+								<h1>
+									<a class="link link--ilin" href="#"><span>Fresh</span><span>Food</span></a>
+								</h1>
+							</div>
+						</div>
+						<div class="top-nav">
+							<nav class="navbar navbar-default">
+									<div class="navbar-header">
+										<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+											<span class="sr-only">Toggle navigation</span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+										</button>
+									</div>
+									<br/>
+									<br/>
+								<!-- Collect the nav links, forms, and other content for toggling -->
+								<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+									<ul class="nav navbar-nav">
+										<li><a class="active" href="index.html" routerLink="">Home</a></li>
+                    <li><a href="#about" class="scroll" routerLink="/home/about">About</a></li>
+										<li><a href="#about" class="scroll" routerLink="/home/menu">Menu</a></li>
+                    <li><a href="#about" class="scroll" routerLink="/home/about">About</a></li>
+										<li><a href="#services" class="scroll"routerLink="/home/service">Services</a></li>
+										<li><a href="#chefs" class="scroll" routerLink="/home/chefs">Chefs</a></li>
+										<li><a href="#gallery" class="scroll"routerLink="/home/food">Gallery</a></li>	
+										<li><a href="#customer" class="scroll"routerLink="/home/custom-say">Customers</a></li>
+									
+									</ul>
+							
+						<div class="clearfix"> </div>						
+								</div>	
+							</nav>
+							<div class="agileinfo-social-grids">
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-rss"></i></a></li>
+									<li><a href="#"><i class="fa fa-vk"></i></a></li>
+								</ul>
+							</div>
+							
+					</div>		
+						</div>
+						
+				</div>
+				<div class="agileits-banner-info">
+					<h3>welcome to</h3>
+						<h2 class="rw-sentence">
+						<span>Food tastes better, eat with your </span>
+						<div class="rw-words rw-words-1">
+							<span>Family</span>
+							<span>Friends</span>
+							<span>happiness</span>
+							<span>Love</span>
+							<span>Gratefulness</span>
+							<span>happiness</span>
+						</div>
+						</h2>
+						<a href="#" data-toggle="modal" routerLink="/add-table" data-target="#myModal2">Book Your Table</a>
+				</div>
+			</div>
+		</div>
+	<!-- //banner -->
+		
+		
+	<!-- popup for sign up form -->
+	<div class="modal video-modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModal2">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div id="small-dialog2" class="mfp-hide book-form">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h3>Book A Table Now</h3>
+						<form action="#" method="post">
+							<input type="text" name="Name" placeholder="Reservation Name" required=""/>
+							<input type="tel" name="number" placeholder="Mobile Number" required=""/>
+							<input type="email" name="Email" class="email" placeholder="Email" required=""/>
+							<div class="select-block1">
+								<select required="">
+									<option value="">Number Of Guests</option>
+									<option value="">1 Guest</option>
+									<option value="">2 Guests</option>
+									<option value="">3 Guests</option>
+									<option value="">4 Guests</option>
+									<option value="">5 Guests</option>
+									<option value="">More Than 5</option>
+								</select>
+							</div>
+							<input class="date" type="text" id="datepicker2"  name="datepicker2" placeholder="Date Of Arrival" title="Please enter your Arrival Date " required=""/>
+							<textarea name="Message" placeholder="Additional Information (Optional)" ></textarea>
+							<input type="submit" value="Book table">
+						</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	
+		
+	
+		
+	<router-outlet></router-outlet>
+		
+   <!-- map -->
+	<div class="map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56801282.36779669!2d-131.48418691999598!3d29.66539724812115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6dc13a009bba0319!2sPret+A+Manger!5e0!3m2!1sen!2sin!4v1491030489371"></iframe>
+			<div class="agile_map_grid">
+				<div class="agile_map_grid1">
+					<h3>Contact Info</h3>
+					<ul>
+						<li><i class="fa fa-map-marker" aria-hidden="true"></i><span>address :</span> 507 Boylston St,Boston USA.</li>
+						<li><i class="fa fa-envelope" aria-hidden="true"></i><span>email :</span> <a href="mailto:info@example.com">info@example.com</a></li>
+						<li><i class="fa fa-phone" aria-hidden="true"></i><span>call us :</span> (+020) 142 3246 918</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	<!-- //map -->
+	<!-- footer -->
+	<div class="footer">
+			<div class="col-md-6 footer-left">
+				<h3>Fresh Food</h3>
+				<p>Morbi eget mollis erat, sit amet feugiat nulla. In hac habitasse platea dictumst. Sed ac fermentum eros.Pellentesque tincidunt nisi sit amet dui lobortis.Pulvinar pellentesque dui tempor</p>
+				<p>Sed iaculis, nisl a eleifend porttitor, diam mauris gravida arcu, suscipit ullamcorper nulla diam vitae lorem..</p>
+			</div>
+			<div class="col-md-6 footer-right">
+				<section class="subscribe" id="subscribe">
+						<h3>Newsletter</h3>
+					<form action="#" method="post" class="newsletter">
+						<input class="email" type="email" placeholder="Your email..." required="">
+						<input type="submit" class="submit" value="">
+					</form>
+				</section>
+				<h4>Follow us</h4>
+					<div class="wthree-icon">
+						<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+						<a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+						<a href="#" class="google"><i class="fa fa-google-plus"></i></a> 
+						<a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a> 
+					</div>  
+			</div>
+			<div class="clearfix"></div>
+	</div>
+	<!-- //footer -->
+	
+	
+	<!-- copyright -->
+	<div class="copyright-agile">
+		<p>&copy; 2017 Fresh Food. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+	</div>
+	<!-- //copyright -->
+	
+	<script src="js/jarallax.js"></script>
+		<script src="js/SmoothScroll.min.js"></script>
+		<script type="text/javascript">
+			/* init Jarallax */
+			$('.jarallax').jarallax({
+				speed: 0.5,
+				imgWidth: 1366,
+				imgHeight: 768
+			})
+		</script>
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<!-- here stars scrolling icon -->
+		<script type="text/javascript">
+			$(document).ready(function() {
+				/*
+					var defaults = {
+					containerID: 'toTop', // fading element id
+					containerHoverID: 'toTopHover', // fading element hover id
+					scrollSpeed: 1200,
+					easingType: 'linear' 
+					};
+				*/
+									
+				$().UItoTop({ easingType: 'easeOutQuart' });
+									
+				});
+		</script>
+	<!-- //here ends scrolling icon -->
+	
+	
+	<!-- Date-Picker-JavaScript -->
+					<script src="js/jquery-ui.js"></script>
+					<script>
+						$(function() {
+							$( "#datepicker,#datepicker1,#datepicker2" ).datepicker();
+						});
+					</script>
+	<!-- //Date-Picker-JavaScript -->
+	
+	<!-- banner text effect js file -->
+			<script src="js/modernizr.custom.72111.js"></script>
+	<!-- banner text effect js file -->
+	
+	
+	
+	</body>
+	<!-- //Body -->
+
+
+
+
+
+

@@ -1,0 +1,148 @@
+<!-- tabs -->	<!-- about -->
+	<div class="demo" id="about">    
+		<div class="container"> 
+			<div class="w3ls-heading">
+				<h3>About us</h3>
+        <br/>
+			</div>
+			<div class="horizontalTab" id="horizontalTab">
+				<ul class="resp-tabs-list list-group">
+					<li class="list-group-item text-center"></li>
+					<li class="list-group-item text-center"></li>
+					<li class="list-group-item text-center"></li>
+					<li class="list-group-item text-center"></li>
+				</ul>
+					<div class="resp-tabs-container">
+						<!-- section -->
+								<div class="bhoechie-tab-content active">
+											<h3 class="title">about</h3>
+									<div class="services-grids">
+										<div class="ser-img">
+											<h3>ONLY FRESH AND HEALTHY FOOD FOR YOUR FAMILY </h3>
+											<p>Integer sed blandit nisi, eget tempor nulla. Vivamus ut mi nec quam iaculis ultricies. 
+											Maecenas at placerat metus. Curabitur arcu purus, eleifend ut massa at, fringilla sagittis quam. 
+											Nulla volutpat tellus orci, id laoreet ante pretium id.
+											</p>
+											<a href="#myModal" data-toggle="modal"> Read More About Our Recipes</a>
+										</div>
+										<div class="ser-img1">
+											<img src="images/about.png" alt="" />
+										</div>
+										<div class="ser-info">
+											<p>Integer sed blandit nisi, eget tempor nulla. Vivamus ut mi nec quam iaculis ultricies. 
+											Maecenas at placerat metus. Curabitur arcu purus, eleifend ut massa at, fringilla sagittis quam. 
+											Nulla volutpat tellus orci, id laoreet ante pretium id.
+											</p>
+											<p>Pellentesque finibus dapibus volutpat. Curabitur imperdiet vulputate rhoncus. Nullam 
+											scelerisque magna non turpis euismod bibendum. 
+											</p>
+										</div>
+										<div class="clearfix"></div>
+									</div>
+								</div>
+							
+								<div class="bhoechie-tab-content">
+											<h3 class="title ab1">Why Visit Us?</h3>
+									<div class="services-grids">
+										<div class="about-2">
+											<h3>We select fresh and natural products</h3>
+											<img src="https://dep365.com/wp-content/uploads/2019/06/kiwi-640x427.jpg" alt="" />
+										</div>
+										<div class="about-info2">
+											<div class="top-grid">
+												<div class="col-md-6 grid">
+													<i class="fa fa-cutlery" aria-hidden="true"></i>
+													<h3>Healthy food</h3>
+													<p>Pellentesque finibus dapibus volutpat. Curabitur imperdiet vulputate rhoncus. Nullam. 
+													</p>
+												</div>
+												<div class="col-md-6 grid">
+													<i class="fa fa-apple" aria-hidden="true"></i>
+													<h3>Fresh fruits</h3>
+													<p>Pellentesque finibus dapibus volutpat. Curabitur imperdiet vulputate rhoncus. Nullam. 
+													</p>
+												</div>
+												<div class="clearfix"></div>
+											</div>
+											<div class="bottom-grid">
+												<div class="col-md-6 grid">
+													<i class="fa fa-glass" aria-hidden="true"></i>
+													<h3>Drink diet</h3>
+													<p>Pellentesque finibus dapibus volutpat. Curabitur imperdiet vulputate rhoncus. Nullam. 
+													</p>
+												</div>
+												<div class="col-md-6 grid">
+													<i class="fa fa-spoon" aria-hidden="true"></i>
+													<h3>Tasty snacks</h3>
+													<p>Pellentesque finibus dapibus volutpat. Curabitur imperdiet vulputate rhoncus. Nullam. 
+													</p>
+												</div>
+												<div class="clearfix"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+                <br/>
+                <br/>
+                <br/>
+								<div class="bhoechie-tab-content">
+                 
+											<h3 class="title ab2">why choose us</h3>
+									<div class="services-grids">
+										<div class="about-2 lastgrid">
+											<h3>delicious dishes</h3>
+											<h3>great place to enjoy</h3>
+											<p>Integer sed blandit nisi, eget tempor nulla. Vivamus ut mi nec quam iaculis ultricies. 
+											Maecenas at placerat metus. Curabitur arcu purus, eleifend ut massa at, fringilla sagittis quam. 
+											Nulla volutpat tellus orci, id laoreet ante pretium id. Ut iaculis quis eros ac bibendum.
+											</p>
+										</div>
+										<div class="about-info2">
+											<div class="col-md-6 last-grid">
+												<img src="https://img.thuthuatphanmem.vn/uploads/2018/10/04/anh-dep-ben-ly-cafe_110730424.jpg" alt="" />
+											</div>
+											<div class="col-md-6 last-grid1">
+												<h3>High quality restaurant</h3>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+										<div class="clearfix"></div>
+									</div>
+								</div>
+					</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- tabs  js-->
+	<script src="js/easy-responsive-tabs.js"></script>
+	<script>
+	$(document).ready(function () {
+	$('#horizontalTab').easyResponsiveTabs({
+	type: 'default', //Types: default, vertical, accordion           
+	width: 'auto', //auto or any width like 600px
+	fit: true,   // 100% fit in a container
+	closed: 'accordion', // Start closed if in accordion view
+	activate: function(event) { // Callback function if tab is switched
+	var $tab = $(this);
+	var $info = $('#tabInfo');
+	var $name = $('span', $info);
+	$name.text($tab.text());
+	$info.show();
+	}
+	});
+	$('#verticalTab').easyResponsiveTabs({
+	type: 'vertical',
+	width: 'auto',
+	fit: true
+	});
+	});
+	</script>
+	
+	<!-- //tabs-js  -->
+	
+	<!-- //tabs -->    <!-- //about -->
+	
+		
+	
+		
